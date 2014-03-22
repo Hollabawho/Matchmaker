@@ -1,0 +1,230 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+} 
+
+html, body {
+	font-family:;
+	margin:0;
+	padding:0;
+	width:100%;
+	/*min-width:900px;*/
+}
+
+a {
+	color:#FFF;
+	text-decoration:none;
+	font-family:"Source Sans Pro";
+}
+
+a:hover {
+	color:yellow;
+}
+
+header {
+	width:100%;
+	background:black;
+	border-bottom: 4px solid yellow;
+}
+
+button {
+	background-color:yellow;
+	box-shadow:inset 0 -3px 0px 0px #bfc505;
+	width:260px;
+	height:55px;
+	text-transform:uppercase;
+	font-size:20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-style:bold;
+	letter-spacing:1px;
+	border-radius:5px;
+	float:none;
+	border:0;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin:0;
+	padding-bottom:8px;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+	margin:0;
+	line-height:30px;
+}
+
+.logo {
+	float:left;
+	text-decoration:none;
+	font-size:30px;
+	color:yellow;
+	font-family: 'Merriweather', serif;
+	font-weight:700;
+	font-style:bold;
+}
+
+.navigation {
+	padding:20px;
+	width:70%;
+	margin:0 auto;
+	min-width:900px;
+}
+
+.navigation ul {
+	margin:0;
+	padding:5px 0 5px 0; /* remove default padding */
+	float:right;
+}
+
+.navigation li {
+	display:inline-block;
+	padding-right:15px;
+	padding-top:15px;
+	font-size:20px;
+}
+
+.navigation li:last-child {
+	padding-right:0px;
+}
+
+.clearfix:after {
+	/* force element to contain floated children */
+	content:"  ";
+	display:table;
+	clear:both;
+}
+
+.callout {
+	background:#c6c6c6;
+	height:80px;
+	border-top:1px solid #949494;
+}
+
+.callout h1 {
+	color:black;
+	font-family: 'Merriweather', serif;
+	font-style:italic;
+	font-size:26px;
+	padding:20px;
+	text-align:center;
+}
+
+.hotlink a {
+	text-transform:uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-style:bold;
+	font-size:21px;
+	padding-right:10px;
+}
+
+.featureimg {
+	background:url(file:///Users/Hollabawho/Desktop/FEWD/_Classes/3_Class_Three/startup_matchmaker/images/coworking.jpg);
+	background-size:cover;
+	background-position:50% 50%;
+	box-shadow:inset 0 0 9px #3a3a3a;
+}
+
+.featureimg:after {
+	content:"  ";
+	display:table;
+	clear:both;
+}
+
+.calltoaction {
+	background:rgba(100%,100%,100%, .75);
+	padding:30px;
+	max-width:320px;
+	float:right;
+	margin:30px;
+	box-shadow:0px 0px 6px 0px #3a3a3a;
+	margin-right:0;
+}
+
+.calltoaction:after {
+	content:"  ";
+	display:table;
+	clear:both;
+}
+
+.bodywrapper {
+	width:70%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.taste {
+	color:#999999;
+	text-decoration:line-through;
+}
+
+.are {
+	border-bottom:3px solid yellow;
+}
+
+.column-third{
+	float: left;
+	width: 33%;
+	padding: 2.5%;
+}
+
+.profile {
+
+}
+
+.developer {
+	border-left:1px solid #e1e1e1;
+	border-right:1px solid #e1e1e1;
+}
+
+.designer {
+}
+
+.graybutton {
+	background:#c6c6c6;
+	box-shadow:inset 0 -3px 0px 0px #9e9e9e;
+	width:100%;
+}
+
+.padded {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+section {
+	font-family: 'Merriweather', serif;
+}
+
+h2 {
+	font-weight:700;
+	font-style:bold;
+	padding:0;
+	margin:0;
+	padding-bottom:5px;
+}
+
+footer {
+  	font-family:"Source Sans Pro", sans-serif;
+  	padding:15px 0 0 20px;
+  	width:70%;
+  	margin:0 auto;
+}
+
+footer p {
+	font-size:15px;
+}
+
+.footerstyle {
+	background:black;
+	clear:both;
+	height:60px;
+	color:white;
+}
+
+.description {
+	padding-bottom:25px;
+}
